@@ -193,6 +193,7 @@ address {
 
 .mob-close-btn {
   display: block;
+  position: relative;
   margin-left: auto;
   border-radius: 100%;
   border: 1px solid #e7e9fc;
@@ -205,13 +206,16 @@ address {
 
 .icon-mob-close-btn {
   fill: #2e2f42;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .mob-nav {
   margin-bottom: 50px;
   max-width: 151px;
 }
-
 
 .mob-list-item:not(:last-child) {
   margin-bottom: 40px;
@@ -230,17 +234,12 @@ address {
   color: #404bbf;
 }
 
-
-.studio-wrap {}
-
 .mob-list-item-span {}
 
 .mob-address {
   margin-bottom: 48px;
   max-width: 193px;
 }
-
-
 
 .mob-address-list-item:not(:last-child) {
   padding-bottom: 24px;
