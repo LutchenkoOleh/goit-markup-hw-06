@@ -340,35 +340,18 @@ address {
   height: 56px;
   margin: 0 auto;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  /* transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
+/* =====================TWO================= */
 
-/* .section-one-button:hover {
-  background-color: #404bbf;
-
-
-}
-
-.section-one-button:focus {
-  background-color: #404bbf
-} */
-
-/*section-two*/
 .section-two {
   font-family: "Roboto", sans-serif;
 }
-
-
-
 
 .section-two-list {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
-
 }
 
 .section-two-list-item {
@@ -376,7 +359,6 @@ address {
 }
 
 .contact-icon {
-  /* display: flex; */
   display: none;
   align-items: center;
   justify-content: center;
@@ -388,18 +370,9 @@ address {
   margin-bottom: 8px;
 }
 
-
-/* .section-two-contact-icon {
-  fill: #4d5ae5;
-  fill: #2e2f42;
-} */
-
 .section-two-list-title {
-  /* font-weight: 500; */
   font-weight: 700;
-  /* font-size: 20px; */
   font-size: 36px;
-  /* line-height: 1.2; */
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
@@ -408,7 +381,6 @@ address {
 }
 
 .section-two-list-text {
-  /* font-weight: 400; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -417,24 +389,11 @@ address {
 
 }
 
+/* =====================THREE================= */
 
-
-
-/*section-three*/
 .section-three {
   font-family: "Roboto", sans-serif;
   background-color: #f4f4fd;
-
-}
-
-.section-three-list {
-  display: flex;
-  /* flex-direction: row; */
-  flex-wrap: wrap;
-  /* gap: 24px; */
-  gap: 72px;
-  justify-content: center;
-  padding: 0 12px 0 12px;
 }
 
 .section-three-title {
@@ -448,11 +407,18 @@ address {
   margin-bottom: 72px;
 }
 
+.section-three-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+  justify-content: center;
+  padding: 0 12px 0 12px;
+}
+
 .section-three-list-item {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  width: 100%;
 }
 
 .section-three-list-img {
@@ -484,8 +450,6 @@ address {
   margin-bottom: 8px;
 
 }
-
-.section-three-media {}
 
 /* ___________________________________media______________________________ */
 .media {}
@@ -524,15 +488,10 @@ address {
 
 /* _________________________________________________________ */
 
+/* =====================FOUR================= */
 
-
-
-
-/*section-four*/
 .section-four {
   font-family: "Roboto", sans-serif;
-
-
 }
 
 .section-four-title {
@@ -549,8 +508,6 @@ address {
 .section-four-list {
   display: flex;
   flex-wrap: wrap;
-  /* row-gap: 48px;
-  column-gap: 24px; */
   gap: 48px;
   justify-content: center;
 }
@@ -622,14 +579,14 @@ address {
   color: #434455;
 }
 
+/* =====================FOOTER================= */
 
-/*footer*/
 .footer {
   background: #2e2f42;
   padding: 96px 0;
 }
 
-.wrap {
+.footer-wrap {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -637,8 +594,11 @@ address {
 }
 
 .footer-info {
-  /* margin-right: 120px; */
-  width: 288px;
+  min-width: 288px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-link {
@@ -651,14 +611,12 @@ address {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-  padding: 0 86px 0 86px;
+  /* padding: 0 86px 0 86px; */
 }
 
 .footer-link-logo {
   color: #f4f4fd;
 }
-
-
 
 .footer-text {
   font-family: "Roboto", sans-serif;
@@ -675,7 +633,6 @@ address {
   text-align: center;
   padding-right: 40px;
   padding-left: 40px;
-
 }
 
 .footer-media-text {
@@ -686,7 +643,6 @@ address {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-
 }
 
 .footer-media-list {
@@ -723,7 +679,7 @@ address {
 
 /* __________________________ */
 .footer-search {
-  /* width: 100%; */
+  text-align: center;
 }
 
 .footer-search-text {
@@ -734,10 +690,7 @@ address {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-  padding: 0 106px 0 106px;
 }
-
-.footer-field {}
 
 .footer-field-search {
   display: flex;
@@ -746,8 +699,6 @@ address {
   align-items: center;
   justify-content: center;
 }
-
-.footer-field-labal {}
 
 .footer-search-input {
   border: 1px solid #fff;
@@ -843,8 +794,6 @@ address {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-field {}
-
 .modal-close {
   position: absolute;
   display: flex;
@@ -887,8 +836,6 @@ address {
   max-width: 256px;
 }
 
-.modal-form {}
-
 .modal-field {
   margin-bottom: 8px;
 }
@@ -902,7 +849,6 @@ address {
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
-
 }
 
 .modal-input-wrap {
@@ -981,7 +927,6 @@ address {
 /* __________CHECK__________ */
 .modal-field-check {
   margin-bottom: 24px;
-
 }
 
 .check-text {
@@ -991,7 +936,6 @@ address {
   letter-spacing: 0.04em;
   color: #8e8f99;
   position: relative;
-
 }
 
 .check-link {
@@ -1053,7 +997,6 @@ address {
 .modal-btn:focus {
   background-color: #404bbf;
 }
-
 
 /* =================@MEDIA============= */
 
@@ -1165,15 +1108,14 @@ address {
 
   /* =====================FOOTER================= */
 
-  .footer {}
-
-  .wrap {
+  .footer-wrap {
     gap: 72px 24px;
     padding-left: 108px;
   }
 
   .footer-info {
     min-width: 264px;
+    display: block;
   }
 
   .footer-link {
@@ -1185,7 +1127,9 @@ address {
     text-align: start;
   }
 
-  .footer-search {}
+  .footer-search {
+    text-align: start;
+  }
 
   .footer-search-text {
     padding: 0;
@@ -1221,7 +1165,6 @@ address {
     opacity: 0.5;
   }
 }
-
 
 @media screen and (min-width:1158px) {
   .container {
@@ -1379,7 +1322,7 @@ address {
 
   }
 
-  .wrap {
+  .footer-wrap {
     flex-wrap: nowrap;
     padding: 0 16px 0 16px;
     gap: 0;
@@ -1389,17 +1332,12 @@ address {
     margin-right: 120px;
   }
 
-  .footer-link {
-    padding: 0;
-  }
-
   .footer-text {
     max-width: 264px;
   }
 
   .footer-media-info {
     margin-right: 80px;
-    padding: 0;
   }
 
   .footer-search-text {
@@ -1419,7 +1357,6 @@ address {
   .footer-search-input::placeholder {
     opacity: 1;
   }
-
 
   /* ===============IS-OPEN============= */
   .modal-input {
